@@ -1,0 +1,23 @@
+HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Internet Settings\Zones\1
+strValueName = "2500"
+dwValue = 0
+
+HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Internet Settings\Zones\2
+strValueName = "2500"
+dwValue = 0
+
+HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Internet Settings\Zones\3
+strValueName = "2500"
+dwValue = 0
+
+HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Internet Settings\Zones\4
+strValueName = "2500"
+dwValue = 0
+
+
+
+
+HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Internet Explorer\Main\FeatureControl\FEATURE_BFCACHE
+
+Please note that the FEATURE_BFCACHE subkey may or may not be present, and should be created if it is not present. 
+Important: Inside this key, create a DWORD value named iexplore.exe with the value of 0.
